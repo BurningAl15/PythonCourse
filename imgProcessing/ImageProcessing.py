@@ -16,7 +16,7 @@
 #face = misc.imread('Cover.png')
 #type(face)
 #face.shape, face.dtype
-
+"""
 import cv2
 import numpy as np
 def cargar(link): #Load picture
@@ -42,4 +42,4 @@ for i in range(0,np.size(img,0)):
         img[i][j]=np.dot(yiq,img[i][j])
         img[i][j]=np.dot(rgb,img[i][j])
 
-show(img)
+show(img)"""
